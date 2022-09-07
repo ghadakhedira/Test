@@ -1,0 +1,21 @@
+{
+  "name": "homatest",
+  "version": "1.0.0",
+  "description": "homa test",
+  "main": "index.ts",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.2.0"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "@shelex/cypress-allure-plugin": "^2.30.3",
+    "cypress": "^10.7.0",
+    "esbuild": "^0.15.7",
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "ghada",
+  "license": "ISC"
+}

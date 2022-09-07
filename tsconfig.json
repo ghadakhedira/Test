@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "../node_modules",
+    "target": "ES6",
+    "lib": ["ES6", "dom"],
+    "types": ["cypress", "@shelex/cypress-allure-plugin"]
+  },
+  "include": ["**/*.ts"]
+}
